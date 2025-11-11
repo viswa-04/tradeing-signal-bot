@@ -1,0 +1,7 @@
+streamlit==1.28.1
+pandas==2.1.1
+numpy==1.26.0
+yfinance==0.2.27
+python-dateutil==2.8.2
+pytz==2025.7
+tzlocal==5.1
