@@ -1,0 +1,14 @@
+[server]
+headless = true
+
+[theme]
+primaryColor="#1E90FF"          # vibrant blue for charts
+backgroundColor="#F0F2F6"       # light background
+secondaryBackgroundColor="#FFFFFF"
+textColor="#000000"
+font="sans serif"
+favicon="logo.png"               # put your logo in .streamlit folder
+
+[global]
+# App title displayed in the browser tab
+title = "VS Trade Bot"
