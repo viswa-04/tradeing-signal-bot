@@ -8,6 +8,19 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime
 import pytz
+import streamlit as st
+
+# Set page title and favicon
+st.set_page_config(
+    page_title="VS Trade Bot",
+    page_icon="logo_v2.png",   # match your favicon file name
+    layout="centered"
+)
+
+# Your app code starts here
+st.title("VS Trade Bot")
+st.write("Welcome to your trading signal app!")
+
 
 # ----------------------------- USER CONFIG (edit before running) -----------------------------
 EMAIL_SENDER = "viswamuthupandi04@gmail.com"
