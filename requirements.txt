@@ -2,8 +2,8 @@ streamlit
 pandas
 numpy
 yfinance
-python-dateutil
-MIMEMultipart
-datetime
+ta
+requests
+matplotlib
+plotly
 pytz
-
